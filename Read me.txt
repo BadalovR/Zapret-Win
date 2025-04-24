@@ -1,0 +1,65 @@
+
+***************************
+1)
+chmod 777 /opt
+cd /opt
+
+2)
+
+Пкинуть файл 
+
+3)
+ cd /opt/Zapret_Linux/zapret-discord-youtube-linux
+sudo chmod 777 /opt/Zapret_Linux/zapret-discord-youtube-linux/nfqws
+sudo chmod 777 /opt/Zapret_Linux/zapret-discord-youtube-linux/main_script.sh
+
+# export PATH=$PATH:/usr/sbin это на 1 раз
+
+echo 'export PATH="$PATH:/usr/sbin"' >> ~/.bashrc
+source ~/.bashrc
+
+sudo apt update
+sudo apt install git
+sudo bash main_script.sh
+
+# ls -l /opt/Zapret_Linux/zapret-discord-youtube-linux/
+
+4) после жмем 
+
+6   ./general_alt4.bat
+
+1  enp0s3
+
+ГОТОВО 
+
+НЕ ЗАКРЫВАТЬ ТЕРМИНАЛ
+
+5)для проверки
+
+wget https://repo.anaconda.com/pkgs/main/osx-arm64/repodata.json.bz2
+
+
+##############################################################################
+
+ПРОВЕРЯЕМ
+
+wget https://repo.expasys.ru/qspro-install.sh
+chmod 777 qspro-install.sh
+./qspro-install.sh
+
+##############################################################################
+
+Если надо добавить ссылку на сайт или репо , добавить сюда , ссылки в столбик как в файле 
+
+\Zapret\Zapret_Linux\zapret-discord-youtube-linux\zapret-latest\list-general.txt
+
+##############################################################################
+
+
+
+ТУТ ИСХОДНИК
+
+git clone https://github.com/Sergeydigl3/zapret-discord-youtube-linux.git
+cd /opt/Zapret_Linux/zapret-discord-youtube-linux/
+
+sudo bash main_script.sh
